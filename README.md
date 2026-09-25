@@ -1,4 +1,4 @@
-# Panel Voice 
+﻿# Panel Voice 
 
 A Next.js application that replicates the ElevenLabs Text-to-Speech interface with MongoDB integration for audio file management.
 
@@ -6,7 +6,7 @@ A Next.js application that replicates the ElevenLabs Text-to-Speech interface wi
 
 **Live Application**: [https://panelvoice-interntask.vercel.app/](https://panelvoice-interntask.vercel.app/)
 
-## 📸 Screenshots:
+## ðŸ“¸ Screenshots:
 
 <img width="1041" height="724" alt="image" src="https://github.com/user-attachments/assets/b095ac7b-1a66-4f9b-b54b-2e4e13513379" />
 
@@ -23,13 +23,13 @@ The application features a clean, modern interface matching ElevenLabs' design:
 - **Audio Playback**: Real-time audio streaming from MongoDB-stored URLs
 
 ### Features Showcase
-- ✅ **Custom Dropdown Menu**: Clean, hover-effect enabled language selector
-- ✅ **MongoDB Integration**: Automatic data seeding and retrieval
-- ✅ **Audio Streaming**: Direct audio playback from stored URLs
-- ✅ **Responsive Design**: Mobile and desktop optimized
-- ✅ **Error Handling**: Comprehensive error states and user feedback
+- âœ… **Custom Dropdown Menu**: Clean, hover-effect enabled language selector
+- âœ… **MongoDB Integration**: Automatic data seeding and retrieval
+- âœ… **Audio Streaming**: Direct audio playback from stored URLs
+- âœ… **Responsive Design**: Mobile and desktop optimized
+- âœ… **Error Handling**: Comprehensive error states and user feedback
 
-## 🛠 Tech Stack
+## ðŸ›  Tech Stack
 
 ### Frontend
 - **Next.js 15.5.3** - React framework with App Router
@@ -46,7 +46,7 @@ The application features a clean, modern interface matching ElevenLabs' design:
 - **Vercel** - Hosting platform
 - **MongoDB Atlas** - Cloud database
 
-## 🏃‍♂️ Quick Start
+## ðŸƒâ€â™‚ï¸ Quick Start
 
 ### Prerequisites
 - Node.js 18+ 
@@ -74,8 +74,8 @@ MONGODB_URI="mongodb+srv://username:password@cluster.mongodb.net/elevenlabsDB?re
 Place your audio files in the `public/` directory:
 ```
 public/
-├── english.mp3
-└── arabic.mp3
+â”œâ”€â”€ english.mp3
+â””â”€â”€ arabic.mp3
 ```
 
 ### 5. Run Development Server
@@ -85,28 +85,28 @@ npm run dev
 
 Visit `http://localhost:3000` to see the application.
 
-## 📁 Project Structure
+## ðŸ“ Project Structure
 
 ```
 panel-voice/
-├── src/
-│   ├── app/
-│   │   ├── api/
-│   │   │   └── audio/
-│   │   │       └── route.ts          # MongoDB API endpoint
-│   │   ├── lib/
-│   │   │   └── mongodb.ts            # Database connection
-│   │   ├── globals.css               # Global styles
-│   │   ├── layout.tsx                # Root layout
-│   │   └── page.tsx                  # Main homepage component
-├── public/
-│   ├── english.mp3                   # Sample English audio
-│   └── arabic.mp3                    # Sample Arabic audio
-├── .env.local                        # Environment variables
-└── package.json
+â”œâ”€â”€ src/
+â”‚   â”œâ”€â”€ app/
+â”‚   â”‚   â”œâ”€â”€ api/
+â”‚   â”‚   â”‚   â””â”€â”€ audio/
+â”‚   â”‚   â”‚       â””â”€â”€ route.ts          # MongoDB API endpoint
+â”‚   â”‚   â”œâ”€â”€ lib/
+â”‚   â”‚   â”‚   â””â”€â”€ mongodb.ts            # Database connection
+â”‚   â”‚   â”œâ”€â”€ globals.css               # Global styles
+â”‚   â”‚   â”œâ”€â”€ layout.tsx                # Root layout
+â”‚   â”‚   â””â”€â”€ page.tsx                  # Main homepage component
+â”œâ”€â”€ public/
+â”‚   â”œâ”€â”€ english.mp3                   # Sample English audio
+â”‚   â””â”€â”€ arabic.mp3                    # Sample Arabic audio
+â”œâ”€â”€ .env.local                        # Environment variables
+â””â”€â”€ package.json
 ```
 
-## 🔧 Key Features Implementation
+## ðŸ”§ Key Features Implementation
 
 ### Custom Dropdown Component
 - **State Management**: Custom React hooks for dropdown visibility
@@ -124,7 +124,7 @@ panel-voice/
 - **Playback Controls**: Play/pause states with loading indicators
 - **Error Recovery**: Graceful handling of missing or corrupted audio files
 
-## 🎯 API Endpoints
+## ðŸŽ¯ API Endpoints
 
 ### GET `/api/audio?lang={language}`
 Retrieves audio file URL for specified language.
@@ -146,7 +146,7 @@ Retrieves audio file URL for specified language.
 }
 ```
 
-## 🚀 Deployment
+## ðŸš€ Deployment
 
 ### Vercel Deployment
 1. Push code to GitHub repository
@@ -160,7 +160,7 @@ Configure in Vercel dashboard:
 MONGODB_URI = your_mongodb_connection_string
 ```
 
-## 🔍 Development Notes
+## ðŸ” Development Notes
 
 ### Database Schema
 ```typescript
@@ -180,7 +180,7 @@ interface AudioData {
 - **Component-Scoped**: Styles defined within components
 - **Responsive Design**: Mobile-first responsive patterns
 
-## 🐛 Troubleshooting
+## ðŸ› Troubleshooting
 
 ### Common Issues
 
@@ -209,7 +209,7 @@ rm -rf .next
 npm run build
 ```
 
-## 📊 Performance Metrics
+## ðŸ“Š Performance Metrics
 
 - **First Contentful Paint**: < 1.2s
 - **Largest Contentful Paint**: < 2.5s
@@ -217,7 +217,7 @@ npm run build
 - **MongoDB Query Time**: < 100ms
 - **Audio Load Time**: < 500ms
 
-## 🤝 Contributing
+## ðŸ¤ Contributing
 
 1. Fork the repository
 2. Create feature branch (`git checkout -b feature/amazing-feature`)
@@ -225,16 +225,16 @@ npm run build
 4. Push to branch (`git push origin feature/amazing-feature`)
 5. Open Pull Request
 
-## 📄 License
+## ðŸ“„ License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-## 👨‍💻 Author
+## ðŸ‘¨â€ðŸ’» Author
 
-**Sagar Rajak**  
+**Jeet Zala**  
 - GitHub: [@sagarrajak](https://github.com/sagarrajak)
 - Live Demo: [https://panelvoice-interntask.vercel.app/](https://panelvoice-interntask.vercel.app/)
 
 ---
 
-Built with ❤️ using Next.js and MongoDB
+Built with â¤ï¸ using Next.js and MongoDB
