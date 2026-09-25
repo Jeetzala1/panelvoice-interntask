@@ -1,4 +1,4 @@
-﻿# Panel Voice 
+# Panel Voice 
 
 A Next.js application that replicates the ElevenLabs Text-to-Speech interface with MongoDB integration for audio file management.
 
@@ -232,7 +232,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## ðŸ‘¨â€ðŸ’» Author
 
 **Jeet Zala**  
-- GitHub: [@sagarrajak](https://github.com/sagarrajak)
+- GitHub: [@JeetZala](https://github.com/JeetZala)
 - Live Demo: [https://panelvoice-interntask.vercel.app/](https://panelvoice-interntask.vercel.app/)
 
 ---
